@@ -33,3 +33,4 @@ jobs:
     with:
       setup-go-version-file: 'go.mod'
       setup-go-version: 1.18
+      goreleaser-release-args: --rm-dist --timeout 500m --parallelism 1
